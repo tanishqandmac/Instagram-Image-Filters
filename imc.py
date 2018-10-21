@@ -77,7 +77,7 @@ img_3 = imgIncreaseBrightness(img_1,int(brightnessScaled))
 cv2.imwrite('Output/Brightened Image.jpg',img_3)
 
 #Performing Task 3
-im1.point(lambda p: p * 1.5).save('Output/Darkened Image.jpg')
+im1.point(lambda p: p * darknessScaled).save('Output/Darkened Image.jpg')
 
 #Performing Task 4
 #Importing Source and Target Images
